@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+        <link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
         <title>GD van der Westhuizen</title>
-        <link href="style.css" type="text/css"  rel="stylesheet" />
+        <link href="css/style.css" type="text/css"  rel="stylesheet" />
     </head>
 
     <body>
-        <div>
+        <header>
             <nav>
                 <ul>
-                    <li><a href="#home" class="current">HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#youtube">YOUTUBE</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
         <div id="home">
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <h1>Hello,<br/>I am <span>GD van der Westhuizen</span>.<br/>I'm a Full-Stack Web Developer.</h1>
@@ -26,6 +26,26 @@
         <div id="about">
             <br/><br/><br/>
             <h3>ABOUT</h3>
+            <div class="about_top">
+                <div id="about_right">
+                    <img class="shrink" src="images/GD.jpg" alt="GD van der Westhuizen" id="about_img" title="GD van der Westhuizen" width="30%" height="30%">
+                </div>
+                <div id="about_left">
+                     <p>My name is G.D. van der Westhuizen and I am a full-stack web developer.<br>My personality type is INTJ-A and I am passionate about
+                         all things technology related, always willing to learn.<br>I work well under pressure and can keep a lazer-sharp focus during stresful
+                         situations.<br>I like a challenge and make it my mission to better every system or workspace.
+        
+                     </p>
+                </div>
+                <ins>My Personality</ins>
+                <ul class="graph">
+                    <li id="graph_mind" title="Introverted individuals prefer solitary activities and get exhausted by social interaction.">Mind: 86% INTROVERTED</li><hr>
+                    <li id="graph_energy" title="Intuitive individuals are very imaginative, open-minded and curious.">Energy: 73% INTUITIVE</li><hr>
+                    <li id="graph_nature" title="Thinking individuals focus on objectivity and rationality, prioritizing logic over emotions.">Nature: 58% THINKING</li><hr>
+                    <li id="graph_tactics" title="Judging individuals are decisive, thorough and highly organized">Tactics: 54% JUDGING</li><hr>
+                    <li id="graph_identity" title="Assertive individuals are self-assured, even-tempered and resistant to stress.">Identity 69% ASSERTIVE</li>
+                </ul>
+             </div>
         </div>
 
         <div id="youtube">
@@ -36,11 +56,25 @@
         <div id="portfolio">
             <br/><br/><br/>
             <h3>PORTFOLIO</h3>
+            <div class="portfolio">
+                <a href="#home">
+                    <img class="shrink" src="images/Project1.jpg" alt="Project_1" width="460" height="345">
+                    <figcaption>Technical CV</figcaption>
+                </a>
+                <h6 class="wiggle" >Coming Soon...</h6>
+            </div>
         </div>
 
         <div id="contact">
             <br/><br/><br/>
             <h3>CONTACT</h3>
+            <div class="contact_flex">
+            <a href="https://www.facebook.com/gd.vanderwesthuizen" target="_blank" ><h2><img class="flip" src="images/facebook.png" > Facebook</h2></a>
+            <a href="https://www.instagram.com/gd_van_der_w/" target="_blank" ><h2><img class="flip" src="images/instagram.png" > Instagram</h2></a>
+            <a href="" target="_blank" ><h2><img class="flip" src="images/youtube.png" > YouTube</h2></a>
+            <a href="mailto:gdvanderw@gmail.com" ><h2><img class="flip" src="images/email.png" > Email</h2></a>
+            <a href="Curriculum Vitea of GD van der Westhuizen.pdf" download><h2><img class="flip" src="images/cv.png" > Download CV as PDF</h2></a>
+            </div>
         </div>
 
         <footer>
