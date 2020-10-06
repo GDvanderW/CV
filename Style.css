@@ -475,6 +475,7 @@ li a:hover {
 .grow:hover{
     transition:all 0.6s ease;
     transform: scale(1.1);
+}
 @media only screen and (max-width: 610px) {
     #cv_heading{
         font-size: 2.5rem;
