@@ -481,3 +481,94 @@ li a:hover {
         font-size: 2.5rem;
     }
 }
+/* ---------------------------------- Work Section Settings ---------------------------------- */
+.work_section_box{
+  background-color: #e1efff;
+  text-align: center;
+  height: 100%;
+
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Center and scale the heading text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+.work_section_box p{
+  font-family: 'aileronthin';
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.work_section_box h2{
+  text-align: center;
+  margin-left: 22rem;
+  margin-right: 22rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* ---------------------------------- NASA API Settings ---------------------------------- */
+.nasa_api_container{
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #ffffff;
+  background-color: #f4f9ff;
+}
+.cam_name{
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+#f_cam{
+  height: 600px;
+  width: auto;
+}
+#r_cam{
+  height: 600px;
+  width: auto;
+}
+#b_cam{
+  height: auto;
+  width: 600px;
+}
+
+/* ---------------------------------- Weather API Settings ---------------------------------- */
+.my_weather{
+  background-color: #6bb0ff;
+}
+.my_weather h2{
+  color: #ffffff;
+}
+.weather{
+  display: flexbox;
+  text-align: center;
+  font-size: 2rem;
+  height: 400px;
+}
+.weather img{
+  width: 400px;
+  height: 296px;
+}
+.weather .city{
+  color: #ffffff;
+}
+.weather .temp, .weather .temp_max{
+  color: #ffffff;
+}
+
+/* ---------------------------------- Footer Styles ---------------------------------- */
+footer{
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: royalblue;
+  color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100%;
+}
