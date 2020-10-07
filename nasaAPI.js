@@ -12,7 +12,6 @@ fetch(nasaApiUrl)
 
 
 const generateNasaHtml = (data) => {
-    console.log(data)
     const html = `
         <div class="cam_name">${data.photos[0].camera.full_name}</div>
         <div class="front_cam"><img id="f_cam" src=${data.photos[0].img_src} alt="${data.photos[0].camera.full_name}"></div>

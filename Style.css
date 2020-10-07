@@ -1,4 +1,4 @@
-  /* ------------------------------------ Global Settings ----------------------------------- */
+  /* ------------------------------------ Global Styles ----------------------------------- */
 :root{
     background-color: #333;
     font-size: 62.5%;
@@ -79,7 +79,7 @@ p{
     height: 100vh;
 }
 
-  /* ---------------------------------- Landing Page Settings ---------------------------------- */
+  /* ---------------------------------- Landing Page Styles ---------------------------------- */
 .intro {
 
     /* The image used */
@@ -177,7 +177,7 @@ p{
     -webkit-animation-delay: 0.8s;
 }
 
-  /* ---------------------------------- Navigation bar Settings ---------------------------------- */
+  /* ---------------------------------- Navigation bar Styles ---------------------------------- */
 ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -187,6 +187,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    z-index: 2;
   }
   
 li img{
@@ -253,7 +254,7 @@ li a:hover {
     
 }
 
-  /* ---------------------------------- About Section Settings ---------------------------------- */
+  /* ---------------------------------- About Section Styles ---------------------------------- */
 
   #about{
     background-color: #e1efff;
@@ -336,7 +337,7 @@ li a:hover {
     }
 }
 
- /* ---------------------------------- Experience Section Settings ---------------------------------- */
+ /* ---------------------------------- Experience Section Styles ---------------------------------- */
  #experience{
     background-color: #7292b6;
     
@@ -414,7 +415,7 @@ li a:hover {
     
 }
 
-/* ---------------------------------- My CV Section Settings ---------------------------------- */
+/* ---------------------------------- My CV Section Styles ---------------------------------- */
 .box{
     width: 100%;
     height: 300px;
@@ -481,7 +482,7 @@ li a:hover {
         font-size: 2.5rem;
     }
 }
-/* ---------------------------------- Work Section Settings ---------------------------------- */
+/* ---------------------------------- Work Section Styles ---------------------------------- */
 .work_section_box{
   background-color: #e1efff;
   text-align: center;
@@ -513,7 +514,7 @@ li a:hover {
   text-justify: inter-word;
 }
 
-/* ---------------------------------- NASA API Settings ---------------------------------- */
+/* ---------------------------------- NASA API Styles ---------------------------------- */
 .nasa_api_container{
   border-top: solid;
   border-bottom: solid;
@@ -538,7 +539,7 @@ li a:hover {
   width: 600px;
 }
 
-/* ---------------------------------- Weather API Settings ---------------------------------- */
+/* ---------------------------------- Weather API Styles ---------------------------------- */
 .my_weather{
   background-color: #6bb0ff;
 }
@@ -563,10 +564,13 @@ li a:hover {
 }
 
 /* ---------------------------------- Fact of Date API Styles ---------------------------------- */
+.fact{
+  width: 100%;
+}
 .fact_section{
   background-color: #e1efff;
   text-align: center;
-  height: 300px;
+  height: 100%;
 
     /* Center and scale the image */
     background-position: center;
@@ -611,6 +615,67 @@ li a:hover {
   background-color: rgba(255, 251, 0, 0.7);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1100px) {
+  .my_weather h2, .fact_section h2, .nasa_api_container h2, #random_fact, #myBtn{
+    margin-right: 2rem;
+    margin-left: 2rem;}
+}
+@media only screen and (max-width: 610px) {
+  #f_cam{
+    height: 300px;
+    width: auto;
+  }
+  #r_cam{
+    height: 300px;
+    width: auto;
+  }
+  #b_cam{
+    height: auto;
+    width: 300px;
+  }
+  
+}
+@media only screen and (max-width: 410px) {
+  .weather img{
+    width: 200px;
+    height: 148px;
+  }
+  .my_weather h2, .fact_section h2, .nasa_api_container h2{
+    font-size: 2rem;
+  }
+  .weather{
+    height: 250px;
+  }
+}
+/* ---------------------------------- Contact Styles ---------------------------------- */
+#contact{
+  background-color: #6d88c4;
+  height: 200px;
+}
+.flip:hover{
+  transition:all 0.5s ease;
+  transform: rotateZ(-360deg);
+}
+
+#contact img{
+  margin: 0;
+  width: 64px;
+  height: 64px;
+  vertical-align:middle;
+  
+}
+#contact h2{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.contact_flex a{
+  display: block;
+  text-decoration: none;
+}
+
 /* ---------------------------------- Footer Styles ---------------------------------- */
 footer{
   font-size: 1.5rem;

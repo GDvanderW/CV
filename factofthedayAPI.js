@@ -15,7 +15,6 @@ fetch(factApiUrl)
 
 
 const generateInformationHtml = (data) => {
-    console.log(data)
     document.getElementById("random_fact").innerHTML = data;}
 
     document.getElementById("myBtn").addEventListener("click", function() {

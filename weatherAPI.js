@@ -12,7 +12,6 @@ fetch(weatherApiUrl)
 
 
 const generateWeatherHtml = (data) => {
-    console.log(data)
     const html = `
         <img src="images/UpingtonMap.png" alt="Upington Map">
         <div class="city">${data.name}</div>
