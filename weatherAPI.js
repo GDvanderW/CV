@@ -16,7 +16,7 @@ const generateWeatherHtml = (data) => {
     const html = `
         <img src="images/UpingtonMap.png" alt="Upington Map">
         <div class="city">${data.name}</div>
-        <div class="temp_max">Temperatures oftentimes exceed 40°C, todays maximum is ${data.main.temp_max} °C</div>
+        <div class="temp_max">Temperatures oftentimes exceed 40°C</div>
         <div class="temp">Current Temp: ${data.main.temp} °C</div>
     `
     const weatherDiv = document.querySelector('.weather')
