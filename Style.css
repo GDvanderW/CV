@@ -563,12 +563,15 @@ li a:hover {
   color: #ffffff;
 }
 
-/* ---------------------------------- Fact of Date API Styles ---------------------------------- */
-.fact{
-  width: 100%;
+/* ---------------------------------- Education section Styles ---------------------------------- */
+
+#education h1, #education h2{
+  color: #fff;
 }
-.fact_section{
-  background-color: #e1efff;
+
+.education{
+  color: #fff;
+  background-color: rgb(110, 145, 248);
   text-align: center;
   height: 100%;
 
@@ -584,37 +587,8 @@ li a:hover {
     justify-content:center;
     width: 100%;
 }
-#random_fact{
-  font-family: 'aileronthin';
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 5rem;
-  margin-left: 22rem;
-  margin-right: 22rem;
-}
-#myBtn{
-    display: flexbox;
-  position: relative;
-  color: #4585b9;  
-  font-size: 2rem;
-  line-height: 0.9;
-  text-align: center;
-  border: solid;
-  border-color: #4585b9;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  margin-left: 40rem;
-  margin-right: 40rem;
-  margin-bottom: 5rem;
-}
-#myBtn:hover{
-  transition:all 0.6s ease-in-out;
-  background-color: rgba(255, 251, 0, 0.7);
-  cursor: pointer;
-}
+
+
 
 @media only screen and (max-width: 1100px) {
   .my_weather h2, .fact_section h2, .nasa_api_container h2, #random_fact, #myBtn{
@@ -651,8 +625,16 @@ li a:hover {
 /* ---------------------------------- Contact Styles ---------------------------------- */
 #contact{
   background-color: #6d88c4;
-  height: 200px;
+  height: 280px;
 }
+
+#contact p{
+  font-family: 'aileronthin';
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
 .flip:hover{
   transition:all 0.5s ease;
   transform: rotateZ(-360deg);
