@@ -6,6 +6,9 @@
     <link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
     <title>GD van der Westhuizen</title>
     <link rel="stylesheet" href="Style.css">
+    <meta name="theme-color" content="#333">
+    <meta name="msapplication-navbutton-color" content="#333">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#333">
 </head>
 <body>
 
@@ -33,11 +36,12 @@
         <img src="images/my_photo.png" alt="GD van der Westhuizen"><br><br><br>
         <p>
             My name is G.D. van der Westhuizen and I am a full-stack software developer. My personality
-            type is INTJ-A and I am passionate about all things technology related and always eager to learn.
+            type is INTJ-A and I am passionate about all things technology and always eager to learn.
             I work well under pressure and can keep a laser-sharp focus during stressful situations. I like a
-            challenge and I make it my mission to better every system or workspace. I'm currently a third
-            year student at <a id="NWU" href="http://www.nwu.ac.za/"  target="_blank" >North-West University</a>
-            pursuing a degree in information technology and computer science. I aspire toward a career as a professional problem solver,
+            challenge and I make it my mission to better every system or workspace. I have attained my degree in
+            Information Technology and Computer Science
+            at the <a id="NWU" href="http://www.nwu.ac.za/"  target="_blank" >North-West University</a>
+            of South-Africa. I aspire toward a career as a professional problem solver,
             I want to create the solutions to tomorrows problems.
         </p><br><br><br>
         <div id="summary">
@@ -63,7 +67,7 @@
         <div class="education">
             <h1>EDUCATION</h1>
             <img src="images/NWU.png" alt="North Western University" width="170px" height="170px"><br>
-            <h2>Bachelors Degree in Information Technology and Computer Sience</h2>
+            <h2>Bachelors Degree in Information Technology and Computer Science</h2>
             <h2></h2><br>
         </div>
     </div>
@@ -78,14 +82,15 @@
         <h2>TECHNOLOGIES I'VE WORKED WITH:</h2>
         <div id="related_tech">
             <div class="experience_flex">
+                    <img id="experience_ico" src="images/React.png" alt="icon" width="170px" height="170px">
+                    <img id="experience_ico" src="images/js.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/html.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/css.png" alt="icon" width="170x" height="170px">
-                    <img id="experience_ico" src="images/js.png" alt="icon" width="170px" height="170px">
-                    <img id="experience_ico" src="images/React.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/csharp.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/java.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/python.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/sqlserver.png" alt="icon" width="170px" height="170px">
+                    <img id="experience_ico" src="images/mongodb.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/github.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/photoshop.png" alt="icon" width="170px" height="170px">
                     <img id="experience_ico" src="images/linux.png" alt="icon" width="170px" height="170px">
@@ -105,12 +110,22 @@
     <! -- Work Section -->
     <div id="work" class="work_section_box">
         <h1>WORK</h1>
-        <p>
-            This is the section where I will be showcasing all the projects I have worked on
-            in the past so you can get a feel for what I can do, but since I do not have past projects
-            at this stage, this technical cv should serve as a pretty good example of what I am capable of.
-            So instead of showcasing past projects, let's rather have some fun with restful API's.
-        </p>
+        <div class="projects">
+            <a href="http://gd-data-classification-app.s3-website.af-south-1.amazonaws.com" target="_blank">
+                <img class="shrink projectImg" src="images/dataclassificationapp.png" alt="Data Classification App">
+                <figcaption>Data Classification App</figcaption>
+            </a>
+            
+            <a href="https://gdvanderw.github.io/jackiescafe.io" target="_blank">
+                <img class="shrink projectImg" src="images/jackiescafe.png" alt="Jackies Cafe">
+                <figcaption>Jackies Cafe</figcaption>
+            </a>
+
+            <a href="http://gd-van-der-westhuizen-minesweeper.s3-website.af-south-1.amazonaws.com" target="_blank">
+                <img class="shrink projectImg" src="images/minesweeper.png" alt="Minesweeper">
+                <figcaption>Minesweeper</figcaption>
+            </a>
+        </div>
         
         <div class="nasa_api_container">
             <h2>I love space and exploring the unknown so let's use the NASA API to pull some images of Mars from the mars rover:</h2>
@@ -119,7 +134,7 @@
         </div>
 
         <div class="my_weather">
-            <h2>The weather from my home town Upington, often has very high day tempratures. Let's use a weather API to get the current temperature of Upington in the Northern Cape.</h2>
+            <h2>The weather from my home town Upington, often has very high day temperatures. Let's use a weather API to get the current temperature of Upington in the Northern Cape.</h2>
             <div class="weather"></div>
             <script src="weatherAPI.js"></script>
         </div>
@@ -141,7 +156,7 @@
     </div>
     <! -- Footer Section -->
     <footer>
-        GD van der Westhuizen &copy; 2020
+        GD van der Westhuizen &copy; 2021
      </footer>
 </body>
 </html>
